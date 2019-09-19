@@ -21,7 +21,7 @@
     You should have received a copy of the GNU General Public License
     along with this program; if not, write to the Free Software
     Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
-*/
+* /
 defined('ABSPATH') or die("you do not have access to this page!");
 
 class REALLY_SIMPLE_SSL
@@ -134,4 +134,4 @@ function RSSSL()
     return REALLY_SIMPLE_SSL::instance();
 }
 
-add_action('plugins_loaded', 'RSSSL', 8);
+add_action('plugins_loaded', 'RSSSL', 8); */
